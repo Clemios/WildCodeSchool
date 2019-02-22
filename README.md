@@ -23,6 +23,12 @@ BONUS :
 
 [SlidesCarnival](https://www.slidescarnival.com/) : Templates de slides. **Attention, veillez bien à personaliser un minimum le template afin de ne pas de retrouver avec exactement la meme présentation qu'un collègue !!!**
 
+## Librairies chouettes
+
+[SweetAlert2](https://sweetalert2.github.io/) : Permet d'afficher de plus jolies alertes customisables pour remplacer le `alert` de javascript.
+
+[NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
+
 ## Plugins VSCode
 
 `Bracket Pair Colorizer` : Permet de colorer les paires de parenthèses et accolades afin de faciliter la lecture
