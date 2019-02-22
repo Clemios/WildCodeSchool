@@ -7,6 +7,7 @@
 [CSS Diner](https://flukeout.github.io/) : Pour découvrir le CSS
 
 [Flexbox Froggy](https://flexboxfroggy.com/) : Pour aprendre les `flexbox` CSS
+
 [Flexbox Defense](http://www.flexboxdefense.com/) : Pour aprendre les `flexbox` CSS
 
 [Grid Garden](https://cssgridgarden.com/) : Pour apprendre les `grid` CSS
