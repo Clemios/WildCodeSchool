@@ -1,0 +1,32 @@
+# Liens utiles
+
+## Jeux pédagogiques
+
+[Leek Wars](https://leekwars.com/) : Permet d'apprendre les boucles, les tests et différents aspect du code en vous fesait coder des IA de combatants. Utilise la syntaxe du `javascript`.
+
+[CSS Diner](https://flukeout.github.io/) : Pour découvrir le CSS
+
+[Flexbox Froggy](https://flexboxfroggy.com/) : Pour aprendre les `flexbox` CSS
+[Flexbox Defense](http://www.flexboxdefense.com/) : Pour aprendre les `flexbox` CSS
+
+[Grid Garden](https://cssgridgarden.com/) : Pour apprendre les `grid` CSS
+
+BONUS :
+[Ouverture Facile... Quoique.](http://www.ouverture-facile.com/index1.htm) : Site d'enigme necessitant de la recherche et une bonne conaissance du monde de l'iformatique (vous devrez par exemple traiter des fichiers audio par moment)
+
+## Ressources
+
+[CSS-Tricks](https://css-tricks.com/) : Un super site pour découvrir ou redécouvrir des choses sur le CSS
+
+[CodePen](https://codepen.io/) : Plein d'exemples de petit modules front `HTML`, `CSS`, `JS`
+
+[SlidesCarnival](https://www.slidescarnival.com/) : Templates de slides. **Attention, veillez bien à personaliser un minimum le template afin de ne pas de retrouver avec exactement la meme présentation qu'un collègue !!!**
+
+## Plugins VSCode
+
+`Bracket Pair Colorizer` : Permet de colorer les paires de parenthèses et accolades afin de faciliter la lecture
+
+`vscode-icons` : Ajoute des incones correspondant au type de fichier dans l'arborescence de votre projet
+
+
+
