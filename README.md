@@ -23,7 +23,8 @@ BONUS :
 
 [SlidesCarnival](https://www.slidescarnival.com/) : Templates de slides. **Attention, veillez bien à personaliser un minimum le template afin de ne pas de retrouver avec exactement la meme présentation qu'un collègue !!!**
 
-## Librairies chouettes
+## Librairies
+### Pour le front de vos applications web
 
 :warning: Pour la plus part des librairies javascript, il y a deux approches pour l'utilisation.
 
@@ -45,6 +46,9 @@ BONUS :
 
 [NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
 
+### Pour gérer vos modules Node et les dépendances de votre projet
+[npm-check](https://www.npmjs.com/package/npm-check) : Package Node permettant facilement de maintenir a jour les différents modules utilisés dans un projet *(front ou back)*
+
 ## Tips and Tricks pour VSCode
 
 ### Astuces
@@ -53,9 +57,9 @@ BONUS :
 > - N'hésitez pas à abuser de la fonction recherche *(`ctrl` + `F`)* pour rapidement accéder à la portion de code qui vous interesse
 
 **Raccourcis clavier** *(Remplacez `ctrl` par `cmd` sous Mac)*
-> `ctrl` + `P` => Pour ouvrir un fichier rapidement, vous pouvez taper un `>` dans le champ pour passer en mode invite de commande
-> `ctrl` + `shift` + `P` => Pour afficher l'invite de commande (utilse pour activer/désactiver des plugins, éxécuter des commandes...)
-> `ctrl` + `K` + `W` => Permet de fermer tous les onglets ouverts
+> - `ctrl` + `P` => Pour ouvrir un fichier rapidement, vous pouvez taper un `>` dans le champ pour passer en mode invite de commande
+> - `ctrl` + `shift` + `P` => Pour afficher l'invite de commande (utilse pour activer/désactiver des plugins, éxécuter des commandes...)
+> - `ctrl` + `K` + `W` => Permet de fermer tous les onglets ouverts
 
 ### Plugins sympas
 
