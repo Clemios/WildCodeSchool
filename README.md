@@ -39,7 +39,7 @@ BONUS :
 ><script src="lalibrairie.js"></script>
 ><link rel="stylesheet" href="lalibrairie.css">
 >```
-> Ainsi vous pouvez modifier a votre convenance le CSS de la librairie
+> Ainsi vous pouvez modifier a votre convenance le JS/CSS de la librairie
 
 [SweetAlert2](https://sweetalert2.github.io/) : Permet d'afficher de plus jolies alertes customisables pour remplacer le `alert` de javascript.
 
