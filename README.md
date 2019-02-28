@@ -47,7 +47,25 @@ BONUS :
 [NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
 
 ### Pour gérer vos modules Node et les dépendances de votre projet
+
+**Packages Node utiles**
 [npm-check](https://www.npmjs.com/package/npm-check) : Package Node permettant facilement de maintenir a jour les différents modules utilisés dans un projet *(front ou back)*
+
+**Commandes npm**
+Commande permettant de lister les failles de sécutité connues présentes dans les packages Node que vous utilisez
+>```sh
+>npm audit
+>```
+
+Cette commande est disponible avec l'option `--fix` qui permet de résoudre automatiquement la plupart des failles
+>```sh
+>npm audit --fix
+>```
+
+Avec de nombreux modules, il peut être utile de "nettoyer" le fichier `package-lock.json` qui est généré à l'installation de modules, pour ce faire npm dispose de la commande
+>```sh
+>npm dedupe
+>```
 
 ## Tips and Tricks pour VSCode
 
