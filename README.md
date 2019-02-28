@@ -39,14 +39,30 @@ BONUS :
 ><script src="lalibrairie.js"></script>
 ><link rel="stylesheet" href="lalibrairie.css">
 >```
-> Ainsi vous pouvez modifier a votre convenance le JS/CSS de la librairie
+> Ainsi vous pouvez modifier a votre convenance le CSS de la librairie
 
 [SweetAlert2](https://sweetalert2.github.io/) : Permet d'afficher de plus jolies alertes customisables pour remplacer le `alert` de javascript.
 
 [NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
 
-## Plugins VSCode
+## Tips and Tricks pour VSCode
 
-`Bracket Pair Colorizer` : Permet de colorer les paires de parenthèses et accolades afin de faciliter la lecture
+### Astuces
+**Utilisation**
+> - Plus vous personaliserais et adapterais votre IDE à vos besoins, plus vous serez productifs !
+> - N'hésitez pas à abuser de la fonction recherche *(`ctrl` + `F`)* pour rapidement accéder à la portion de code qui vous interesse
+
+**Raccourcis clavier** *(Remplacez `ctrl` par `cmd` sous Mac)*
+> `ctrl` + `P` => Pour ouvrir un fichier rapidement, vous pouvez taper un `>` dans le champ pour passer en mode invite de commande
+> `ctrl` + `shift` + `P` => Pour afficher l'invite de commande (utilse pour activer/désactiver des plugins, éxécuter des commandes...)
+> `ctrl` + `K` + `W` => Permet de fermer tous les onglets ouverts
+
+### Plugins sympas
+
+`bracket-pair-colorizer` : Permet de colorer les paires de parenthèses et accolades afin de faciliter la lecture
 
 `vscode-icons` : Ajoute des incones correspondant au type de fichier dans l'arborescence de votre projet
+
+`project-manager` : Très pratique pour naviguer entre plusieurs projets
+
+`Sublime Text Keymap` : Vos raccourcis Sublime Text vous manquent ? Ajoutez les à VSCode avec ce plugin
