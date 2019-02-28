@@ -25,6 +25,22 @@ BONUS :
 
 ## Librairies chouettes
 
+:warning: Pour la plus part des librairies javascript, il y a deux approches pour l'utilisation.
+
+**L'approche NodeJs**
+>Il suffit de faire :
+>```
+> npm install lalibrairie
+>```
+
+**L'approche classique**
+>Il faut télécharger et insérer le Javascript et le CSS dans le `index.html` de votre projet
+>```html
+><script src="lalibrairie.js"></script>
+><link rel="stylesheet" href="lalibrairie.css">
+>```
+> Ainsi vous pouvez modifier a votre convenance le CSS de la librairie
+
 [SweetAlert2](https://sweetalert2.github.io/) : Permet d'afficher de plus jolies alertes customisables pour remplacer le `alert` de javascript.
 
 [NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
@@ -34,6 +50,3 @@ BONUS :
 `Bracket Pair Colorizer` : Permet de colorer les paires de parenthèses et accolades afin de faciliter la lecture
 
 `vscode-icons` : Ajoute des incones correspondant au type de fichier dans l'arborescence de votre projet
-
-
-
