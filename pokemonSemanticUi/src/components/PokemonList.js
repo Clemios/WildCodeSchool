@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { Menu, Container, Button, Grid } from 'semantic-ui-react'
 import PokemonDetails from './PokemonDetails'
 
 export default class PokemonList extends Component {
@@ -28,6 +29,9 @@ export default class PokemonList extends Component {
   }
 
   fetchNewData = (link) => {
+    if (!link) {
+      return false
+    }
     fetch(link)
       .then(response => response.json())
       .then(data => {
@@ -49,7 +53,13 @@ export default class PokemonList extends Component {
       // Si pas de data, je retourne false pour ne rien render
       return false
     }
-    return (pokemonList.map((pokemon) => <PokemonDetails key={pokemon.name} details={pokemon}></PokemonDetails>))
+    return (
+      pokemonList.map((pokemon) => (
+        <Grid.Column key={pokemon.name}>
+          <PokemonDetails details={pokemon}></PokemonDetails>
+        </Grid.Column>
+      ))
+    )
   }
   render() {
     // console.log('this.state =>', this.state);
@@ -60,11 +70,22 @@ export default class PokemonList extends Component {
     // const previousLink = this.state.previousLink
     // const nextLink = this.state.nextLink
     return (
-      <div>
-        <button onClick={() => this.fetchNewData(previousLink)}>Previous</button>
-        <button onClick={() => this.fetchNewData(nextLink)}>Next</button>
-        {this.renderList(pokemonList)}
-      </div>
+      <Fragment>
+        <Menu fixed='top' color='red' inverted>
+          <Menu.Item header>
+            PokéApp
+          </Menu.Item>
+          <Menu.Item position='right'>
+            <Button inverted circular icon='chevron left' onClick={() => this.fetchNewData(previousLink)}/>
+            <Button inverted circular icon='chevron right' style={{ marginLeft: '4px' }} onClick={() => this.fetchNewData(nextLink)}/>
+          </Menu.Item>
+        </Menu>
+        <Container style={{ marginTop: '5em' }}>
+          <Grid doubling columns='6'>
+            {this.renderList(pokemonList)}
+          </Grid>
+        </Container>
+      </Fragment>
     );
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Card, Image, Grid } from 'semantic-ui-react'
 
 export default class PokemonDetails extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ export default class PokemonDetails extends Component {
           name: data.name,
           image: data.sprites.front_default,
           types: data.types,
+          abilities: data.abilities,
         }
         // Je met a jour la clef details de mon state
         this.setState({ details })
@@ -32,26 +34,47 @@ export default class PokemonDetails extends Component {
       // Si pas de data, je retourne false pour ne rien render
       return false
     }
-    return types.map((type) => <p key={type.type.name}>{type.type.name}</p>)
+    return types.map((type) => <span key={type.type.name}>{type.type.name}</span>)
   }
+
+  // Je passe par une fonction pour tester avant de render
+  renderAbilities = (abilities) => {
+    // console.log('abilities =>', abilities);
+    if (!abilities) {
+      // Si pas de data, je retourne false pour ne rien render
+      return false
+    }
+    return abilities.map((ability) => (
+      <Grid.Column key={ability.ability.name}>
+        {ability.ability.name}
+      </Grid.Column>
+      ))
+    }
 
   render() {
     // console.log('this.state =>', this.state);
     // Cette syntaxe s'apelle le destructuring
-    const { id, name, image, types } = this.state.details
+    const { id, name, image, types, abilities } = this.state.details
     // Elle est une simplification de toutes les lignes suivantes
     // const id = this.state.details.id
     // const name = this.state.details.name
     // const image = this.state.details.image
     // const types = this.state.details.types
     return (
-      <div>
-        <h3>#{id} {name}</h3>
-        <img alt={name} src={image}></img>
-        <h5>Types : </h5>
-        {this.renderTypes(types)}
-        <p>____________________________________</p>
-      </div>
+        <Card>
+          <Image src={image} />
+          <Card.Content>
+            <Card.Header>#{id} {name}</Card.Header>
+            <Card.Meta>
+              {this.renderTypes(types)}
+            </Card.Meta>
+            <Card.Description>
+              <Grid doubling columns='2'>
+                {this.renderAbilities(abilities)}
+              </Grid>
+            </Card.Description>
+          </Card.Content>
+        </Card>
     );
   }
 }
