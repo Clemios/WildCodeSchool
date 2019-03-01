@@ -4,6 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+package.json
+```
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "semantic-ui-react": "^0.85.0"
+  }
+```
+Ce projet utilise `semantic-ui-react`, il faut donc tout d'abord faire un `npm install` pour installer la version présente dans le `package.json`
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
