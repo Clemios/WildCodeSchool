@@ -6,7 +6,34 @@ Détaillez au maximum toutes les étapes pour installer votre projet. Voici un [
 
 Spécifiez les utilisateurs à créer et transmettez un export de votre base de données afin de pouvoir l'installer chez le client.
 
+### Pour travailler en local
+
+Afin de facilement avoir un serveur `MySQL` pour travailler sur vos machines :
+
+[MAMP](https://www.mamp.info/en/downloads/) : La version MAMP (et non MAMP PRO) est gratuite et très simple d'utilisation.
+
+### Pour déployer chez le client
+
+1. Faites un export de votre base de données locale
+2. Installez `MySQL` et `phpMyAdmin` sur le serveur du client
+3. Créez la base de donnée et les utilisateurs via `phpMyAdmin`
+4. Importez vos données exportées à l'étape 1
+
+#### Préparer le serveur du client
+
+Pour déployer votre application, vous allez avoir besoin de `MySQL`, de `Nginx` et de `NodeJS`.
+
+Vous pouvez vous appuyer sur ces tutos : 
+
+[Nginx, MySQL et PhP sur debian](https://www.kanjian.fr/comment-installer-nginx-mysql-php7-debian.html#.XL75AJMzYWo) : Tuto en Francais, ils installent `PhP`, il faudra ajouter `NodeJS`.
+
+[Configurer Nginx pour plusieurs sites](https://smalldata.tech/blog/2015/04/04/setting-up-multiple-websites-with-nginx-nodejs-mysql) : Configurer plusieurs sites sur le meme serveur.
+
 # Liens utiles
+
+## Packages npm utiles
+
+[npm-check](https://www.npmjs.com/package/npm-check) : Permet de vérifier si vos dépendances sont utilisées et à jour.
 
 ## Jeux pédagogiques
 
