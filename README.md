@@ -1,3 +1,11 @@
+# Déploiement
+
+Détaillez au maximum toutes les étapes pour installer votre projet. Voici un [repo Git d'exemple](https://github.com/Clemios/angular4-refrigerator) d'un projet que j'ai réalisé lors de mes études.
+
+## Base de données
+
+Spécifiez les utilisateurs à créer et transmettez un export de votre base de données afin de pouvoir l'installer chez le client.
+
 # Liens utiles
 
 ## Jeux pédagogiques
