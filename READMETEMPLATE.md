@@ -21,6 +21,8 @@ $$$$$$$$\                       $$\
    \__|\__|      \_______| \_______| \_______|\__|      
                                                                                                                                                                     
 ```
+Pour un joli ascii Art => [Ascii Art Generator](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
 Ce projet est blablabla (descriptif court)
 
 ## Motivation
