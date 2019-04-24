@@ -1,3 +1,7 @@
+# Pour vos REAMDME
+
+Je vous propose ce [Template](https://github.com/Clemios/WildCodeSchool/blob/master/READMETEMPLATE.md), à vous de l'améliorer/le compléter afin qu'il colle parfaitement à votre projet
+
 # Déploiement
 
 Détaillez au maximum toutes les étapes pour installer votre projet. Voici un [repo Git d'exemple](https://github.com/Clemios/angular4-refrigerator) d'un projet que j'ai réalisé lors de mes études.
