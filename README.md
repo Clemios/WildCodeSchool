@@ -2,6 +2,27 @@
 
 Je vous propose ce [Template](https://github.com/Clemios/WildCodeSchool/blob/master/READMETEMPLATE.md), à vous de l'améliorer/le compléter afin qu'il colle parfaitement à votre projet
 
+# Pour gérer vos modules Node et les dépendances de votre projet
+
+**Packages Node utiles**
+[npm-check](https://www.npmjs.com/package/npm-check) : Package Node permettant facilement de maintenir a jour les différents modules utilisés dans un projet *(front ou back)*
+
+**Commandes npm**
+Commande permettant de lister les failles de sécutité connues présentes dans les packages Node que vous utilisez
+>```sh
+>npm audit
+>```
+
+Cette commande est disponible avec l'option `--fix` qui permet de résoudre automatiquement la plupart des failles
+>```sh
+>npm audit --fix
+>```
+
+Avec de nombreux modules, il peut être utile de "nettoyer" le fichier `package-lock.json` qui est généré à l'installation de modules, pour ce faire npm dispose de la commande
+>```sh
+>npm dedupe
+>```
+
 # Déploiement
 
 Détaillez au maximum toutes les étapes pour installer votre projet. Voici un [repo Git d'exemple](https://github.com/Clemios/angular4-refrigerator) d'un projet que j'ai réalisé lors de mes études.
@@ -35,9 +56,6 @@ Vous pouvez vous appuyer sur ces tutos :
 
 # Liens utiles
 
-## Packages npm utiles
-
-[npm-check](https://www.npmjs.com/package/npm-check) : Permet de vérifier si vos dépendances sont utilisées et à jour.
 
 ## Jeux pédagogiques
 
@@ -84,27 +102,6 @@ BONUS :
 [SweetAlert2](https://sweetalert2.github.io/) : Permet d'afficher de plus jolies alertes customisables pour remplacer le `alert` de javascript.
 
 [NOTY](https://ned.im/noty/#/) : Permet d'afficher facilement des notifications pour vos applications web
-
-### Pour gérer vos modules Node et les dépendances de votre projet
-
-**Packages Node utiles**
-[npm-check](https://www.npmjs.com/package/npm-check) : Package Node permettant facilement de maintenir a jour les différents modules utilisés dans un projet *(front ou back)*
-
-**Commandes npm**
-Commande permettant de lister les failles de sécutité connues présentes dans les packages Node que vous utilisez
->```sh
->npm audit
->```
-
-Cette commande est disponible avec l'option `--fix` qui permet de résoudre automatiquement la plupart des failles
->```sh
->npm audit --fix
->```
-
-Avec de nombreux modules, il peut être utile de "nettoyer" le fichier `package-lock.json` qui est généré à l'installation de modules, pour ce faire npm dispose de la commande
->```sh
->npm dedupe
->```
 
 ## Tips and Tricks pour VSCode
 
