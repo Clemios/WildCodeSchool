@@ -1,6 +1,13 @@
+TO DO: Post body
+
 # Pour vos REAMDME
 
 Je vous propose ce [Template](https://github.com/Clemios/WildCodeSchool/blob/master/READMETEMPLATE.md), à vous de l'améliorer/le compléter afin qu'il colle parfaitement à votre projet
+
+# Pour personaliser votre terminal
+
+Il faut passer de `bash` à `zsh`, le `zsh` vient ajouter des fonctionalités à votre `bash`.
+Ensuite, vous pouvez installer [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) qui simplifie la gestion des configuration et des thèmes de votre `zsh`.
 
 # Déploiement
 
